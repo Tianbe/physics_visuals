@@ -1,0 +1,20 @@
+axes.titlesize : 14
+axes.labelsize : 14
+axes.linewidth : 1.5
+
+xtick.major.width : 1.5
+xtick.minor.width : 1.5
+ytick.major.width : 1.5
+ytick.minor.width : 1.5
+
+lines.linewidth : 2
+lines.markersize : 8
+xtick.labelsize : 14
+ytick.labelsize : 14
+
+axes.grid: True
+grid.linestyle: -       # solid
+grid.linewidth: 1.5     # in points
+grid.alpha:     0.25     # transparency, between 0.0 and 1.0
+
+figure.constrained_layout.use: True

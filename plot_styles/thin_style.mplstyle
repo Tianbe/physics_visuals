@@ -1,0 +1,15 @@
+axes.titlesize : 13
+axes.labelsize : 13
+axes.linewidth : 1.5
+
+xtick.major.width : 1.5
+xtick.minor.width : 1.5
+ytick.major.width : 1.5
+ytick.minor.width : 1.5
+
+lines.linewidth : 1.5
+lines.markersize : 8
+xtick.labelsize : 12
+ytick.labelsize : 12
+
+figure.constrained_layout.use: True

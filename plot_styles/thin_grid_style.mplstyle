@@ -1,0 +1,37 @@
+axes.titlesize : 13
+axes.labelsize : 13
+axes.linewidth : 1.5
+
+xtick.major.width : 1.5
+xtick.minor.width : 1.5
+ytick.major.width : 1.5
+ytick.minor.width : 1.5
+
+lines.linewidth : 1.5
+lines.markersize : 8
+xtick.labelsize : 12
+ytick.labelsize : 12
+
+axes.grid: True
+grid.linestyle: -       # solid
+grid.linewidth: 1.5     # in points
+grid.alpha:     0.25     # transparency, between 0.0 and 1.0
+
+figure.constrained_layout.use: True
+savefig.bbox:      standard
+
+## Padding (in inches) around axes; defaults to 3/72 inches, i.e. 3 points.
+# figure.constrained_layout.h_pad:  0.04167
+# figure.constrained_layout.w_pad:  0.04167
+##  w/h_pad are the minimum space around the Axes in units of inches
+## Spacing between subplots, relative to the subplot sizes.  Much smaller than for
+## tight_layout (figure.subplot.hspace, figure.subplot.wspace) as constrained_layout
+## already takes surrounding texts (titles, labels, # ticklabels) into account.
+
+## Spacing between subplots is further set by wspace and hspace.
+## These are specified as a fraction of the size of the subplot group as a whole.
+## If these values are smaller than w_pad or h_pad, then the fixed pads are used instead.
+#figure.constrained_layout.hspace: 0.02
+#figure.constrained_layout.wspace: 0.02
+# figure.constrained_layout.hspace: 0.0
+# figure.constrained_layout.wspace: 0.0
