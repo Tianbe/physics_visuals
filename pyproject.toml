@@ -1,0 +1,43 @@
+[project]
+name = 'physics_visuals'
+version = '0.1.0'
+description = 'Various illustrations of a pressure wave'
+authors = [
+    { name = 'Timon Beck' },
+]
+license = 'MIT'
+requires-python = '>=3.9'
+dependencies = [
+    'numpy',
+    'matplotlib==3.7.5',
+    'scipy',
+    'imageio',
+]
+
+[project.optional-dependencies]
+dev = [
+    'pytest',
+    'flake8'
+]
+
+[build-system]
+requires = ['setuptools>=42']
+build-backend = 'setuptools.build_meta'
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.ruff]
+line-length = 88
+
+[tool.black]
+line-length = 88
+exclude = '''
+/(
+\.idea
+| \.git
+| \__pycache__
+| \.venv
+| \.pytest_cache
+)/
+'''
